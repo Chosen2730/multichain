@@ -1,0 +1,115 @@
+@media (max-width: 960px){
+    #main-body{
+        display: block;
+        width: 100%;
+    }
+    .body-sect{
+        padding: 10% 3% 7%;
+    }
+   .dashboard{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    padding: 0;
+   }
+   .dash img{
+       display: none
+   }
+   .dash{
+    /* width: 100%; */
+    padding: 2% 5%;
+    margin: 2% auto;
+   }
+   .new{
+    display: inline-flex;
+    width: 100%;
+    height: 15vh;
+    overflow: auto;
+    padding-right: 15px;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    /* background-color: #0c13319d; */
+    }
+
+   #dash2{
+       display: none;
+   }
+   .import{
+    width: 90%;
+}
+}
+
+@media (max-width: 425px){
+    .navbrand{
+        width: 50%;
+    }
+    .body-sect{
+        padding: 15% 3% 17%;
+    }
+    .button1{
+        display: none;
+    }
+    .button2 h5{
+        padding: 7%;
+    }
+    .router-div div img{
+        /* padding: 0; */
+        display: none;
+    }
+    .from-main{
+        padding: 4% 2%;
+        margin: 4% 0 6%;
+    }
+    .from-main h5{
+        margin-bottom: 2%;
+    }
+    .from-div{
+        display: block;
+    }
+    .select-div{
+        margin: 4% 0;
+    }
+    .select-div select{
+        padding: 10%;
+        margin: 3% 0;
+    }
+    .connect-button button{
+        width: 80%;
+    }
+    .connect-button h5{
+        padding: 10px;
+    }
+    .dash{
+        padding: 2%;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .dashboard{
+        height: 10vh;
+        padding: 2%;
+    }
+    .new{
+        height: 10vh;
+        padding-right: 0;
+    }
+    .import{
+        width: 95%;
+    }
+    .import p{
+        font-size: .75rem;
+    }
+    #confirm{
+        padding: 40% 10%;
+    }
+    #confirm img{
+        width: 100%;
+    }
+    #confirm button{
+        padding: 6% 10%;
+    }
+    
+}
