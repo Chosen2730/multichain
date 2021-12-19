@@ -4,6 +4,24 @@
     box-sizing: border-box;
     color: rgb(226, 226, 226);
 }
+.top-sect{
+    z-index: 1000;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+.top-sect h6{
+    color: #02111d;
+    padding: .3%;
+}
+.top-sect h5{
+    position: absolute;
+    right: 2%;
+    top: 0;
+    color: #02111d;
+    cursor: pointer;
+}
 .eth{
     width: 20%;
     background-color: #fff;
@@ -19,10 +37,13 @@
 .navbrand{
     width: 30%;
 }
+.navbrand2{
+    display: none;
+}
 #Nav-main{
     display: flex;
     align-items: center;
-    padding: 1% 2%;
+    padding: 2% 2% .75%;
     background-color: #142F43;
     border-bottom: #04243b 2px solid;
 }
@@ -65,7 +86,6 @@
     width: 100%;
     height:100%;
     overflow: auto;
-  
 }
 
 .router-main{

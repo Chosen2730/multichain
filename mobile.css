@@ -43,11 +43,19 @@
 }
 
 @media (max-width: 425px){
+    #Nav-main{
+        padding: 5% 2% .75%;
+    }
     .navbrand{
         width: 50%;
+        display: none;
+    }
+    .navbrand2{
+        display: block;
+        width: 30%;
     }
     .body-sect{
-        padding: 15% 3% 17%;
+        padding: 20% 3%;
     }
     .button1{
         display: none;

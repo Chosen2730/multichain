@@ -55,6 +55,9 @@ $(".phrase").click(function(){
     $("#keystore").hide();
     $("#privatekey").show();
   });
+  $(".close").click(function(){
+    $(".top-sect").hide();
+  });
   $('#submit, .button2').click(function(){
     window.location.href='form.html';
   });
